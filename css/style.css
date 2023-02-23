@@ -219,6 +219,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 60px 60px 0px 0px;
 
 }
 
