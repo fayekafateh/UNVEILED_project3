@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Unveiled</title>
     <link rel="stylesheet" href="https://use.typekit.net/tlk2etf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,13 +16,13 @@
 <body>
 
     <!-- TOP Nav Bar -->
-
+    <div class="navbox"></div>
     <header class="navigation">
         <div class="navLogo">
-            <img src="./images/Logo_navbar.png" alt="Logo">
+            <img src="./images/LOGO_Final.png" alt="Logo">
         </div>
         <div class="navContents">
-            <ul>
+            <ul class="navlist">
                 <a href="#"><li class="navtext navContact">Contact</li></a>
                 <a href="#"><li class="navtext navAbout">About</li></a>
                 <a href="#"><button class="navappbutton">Get The App</button></a>
@@ -30,20 +31,20 @@
     </header>
 
     <!-- Hero Section -->
-    <div class="container contentSection">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
-            <h1 class="heroheading">A Beautiful Museum Experience</h1>
-            <h2 class="heading2">This app uses your smartphone camera to create a uniquely immersive experience</h2>
-            <p>Download Unveiled on the app store today!</p>
-            <a href="#"><button class="appbutton">Get The App</button></a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
-            <img class="coverimg" src="./images/gif/whale_gif.gif" alt="phone whale gif">
-          </div>
-        </div>
+    
+    <div class="herosection2">
+      <h1 class="heroheading">A BEAUTIFUL MUSEUM EXPERIENCE</h1>
+      <div class="herocontent">
+        <!-- <h1 class="heroheading">A Beautiful Museum Experience</h1> -->
+        <h2 class="heading2">This app uses your smartphone camera to create a uniquely immersive experience</h2>
+        <p>Download Unveiled on the app store today!</p>
+        <a href="#"><button class="appbutton">Get The App</button></a>  
+      </div>
+      <div class="heroimg">
+        <img class="coverimg" src="./images/gif/whale_gif.gif" alt="phone whale gif">
       </div>
     </div>
+  
 
     <!-- FEATURE SECTION ----------------------------------------->
 
@@ -51,10 +52,10 @@
 
     <div class="container brownContainer ARsection">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-5 col-md-6 col-sm-12">
             <img class="ARimg" src="./images/gif/Scanning_gif.gif" alt="phone scanning gif">
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-7 col-md-6 col-sm-12">
             <h3 class="FWheading">Discover beyond what’s visible with Unveiled</h3>
             <p class="FWpara">With the use of augmented reality you can immerse yourself and engage with the world around you in ways you’ve never thought. </p>
           </div>
@@ -66,11 +67,11 @@
 
     <div class="container whiteContainer BDGsection">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <h3 class="FBheading">Mark your visits with rewards!</h3>
             <p class="FBpara">By completing each exhibit you can collect uniquely designed badges to make your experience more memorable. Each badge is designed by local artists from the area.</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <img class="BDGimg" src="./images/Badges.png" alt="Badges">
           </div>
         </div>
@@ -81,10 +82,10 @@
 
     <div class="container brownContainer JRNsection">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
-            <img class="JRNimg" src="" alt="Journal on phone">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <img class="JRNimg" src="./images/journal.png" alt="Journal on phone">
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-7 col-md-6 col-sm-12">
             <h3 class="FWheading">Save your favorite exhibits with the journal</h3>
             <p class="FWpara">By saving exhibits you can take notes on learnings you come across and save them to visit them later</p>
           </div>
@@ -96,11 +97,11 @@
 
     <div class="container whiteContainer Mapsection">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <h3 class="FBheading">With the use of our built-in map navigating museums has never been easier</h3>
             <p class="FBpara">Accessible on multiple devices, you can easily map out your trip and provide useful information about open and closed exhibits.</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <img class="Mapimg" src="./images/Map_Blue.png" alt="Maps">
           </div>
         </div>
@@ -111,10 +112,10 @@
 
     <div class="container brownContainer Guidesection">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8">
-            <img class="Guideimg" src="./images/Guide_iPhoneX_mockup 1.png" alt="Guide on phone">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <img class="Guideimg" src="./images/Guide.png" alt="Guide on phone">
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8">
+          <div class="col-lg-7 col-md-6 col-sm-12">
             <h3 class="FWheading">Our navigation guides accompany you through the immersive world of AR</h3>
             <p class="FWpara">Various choices of guides help provide assistance in navigating the museum and give interesting information about select exhibits.</p>
           </div>
@@ -123,14 +124,51 @@
     </div>
 
     <!-- FOOTER ------------------------------------------------------------>
-    <footer></footer>
+    <footer>
+      <form id="contactInput" class="contactGridArea2">
+        <div>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name"><br><br>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email"><br><br>
+            <label for="msg"></label>
+            <input type="text" id="msg" name="msg" placeholder="Write your inquiry here"><br><br>
+        </div>
+        <button id="contactbutton">SEND</button>
+        <div class="socialicons">
+          <img id="icons" class="insta" src="./images/Footer/instagram.png" alt="instagram">
+          <img id="icons" class="faceB" src="./images/Footer/facebook.png" alt="facebook">
+          <img id="icons" class="twit" src="./images/Footer/twitter.png" alt="twitter">
+          <img id="icons" class="youT" src="./images/Footer/youtube.png" alt="youtube">
+          <img id="icons" class="share" src="./images/Footer/share.png" alt="share link">
+        </div>
+        <div class="links">
+          <p class="FootTxt">Terms of Service</p>
+          <p class="FootTxt">Privacy</p>
+        </div>
+      </form>
+    </footer>
+    <script>
+      ScrollReveal({
+            reset: true,
+            distance: '120px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.ARsection', { delay: 100 });
+        ScrollReveal().reveal('.BDGsection', { delay: 100 });
+        ScrollReveal().reveal('.JRNsection', { delay: 100 });
+        ScrollReveal().reveal('.Mapsection', { delay: 100 });
+        ScrollReveal().reveal('.Guidesection', { delay: 100 });
+    </script>
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
+    
     
 </body>
 </html>
