@@ -160,6 +160,10 @@ h1{
     padding-left: 80px;
 }
 
+.Mapimg{
+    height: 600px;
+}
+
 .Guideimg{
     padding-left: 20px;
 }
@@ -295,4 +299,34 @@ h1{
 
 .FootTxt:hover{
     color: darkorange;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1536px) {
+    .heroheading{
+        right: 521px;
+    }
+    
+}
+
+@media only screen and (max-width: 1366px) {
+    .heroheading{
+        right: 462px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .heroheading{
+        right: 393px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .heroheading{
+        right: 291px;
+    }
+    
 }
